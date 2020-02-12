@@ -8,7 +8,7 @@ import allennlp_semparse.models
 
 def wikitables_parser_dasigi_2019() -> semparse_predictors.WikiTablesParserPredictor:
     predictor = _load_predictor(
-        "https://storage.googleapis.com/allennlp-public-models/wikitables-model-2019.07.29.tar.gz",
+        "https://allennlp.s3.amazonaws.com/models/wikitables-model-2020.02.10.tar.gz",
         "wikitables-parser",
     )
     return predictor
@@ -16,7 +16,7 @@ def wikitables_parser_dasigi_2019() -> semparse_predictors.WikiTablesParserPredi
 
 def nlvr_parser_dasigi_2019() -> semparse_predictors.NlvrParserPredictor:
     predictor = _load_predictor(
-        "https://storage.googleapis.com/allennlp-public-models/nlvr-erm-model-2018-12-18-rule-vocabulary-updated.tar.gz",
+        "https://allennlp.s3.amazonaws.com/models/nlvr-erm-model-2020.02.10-rule-vocabulary-updated.tar.gz",
         "nlvr-parser",
     )
     return predictor
@@ -24,7 +24,7 @@ def nlvr_parser_dasigi_2019() -> semparse_predictors.NlvrParserPredictor:
 
 def atis_parser_lin_2019() -> semparse_predictors.AtisParserPredictor:
     predictor = _load_predictor(
-        "https://storage.googleapis.com/allennlp-public-models/atis-parser-2018.11.10.tar.gz",
+        "https://allennlp.s3.amazonaws.com/models/atis-parser-2020.02.10.tar.gz",
         "atis-parser",
     )
     return predictor
@@ -32,7 +32,7 @@ def atis_parser_lin_2019() -> semparse_predictors.AtisParserPredictor:
 
 def quarel_parser_tafjord_2019() -> semparse_predictors.QuarelParserPredictor:
     predictor = _load_predictor(
-        "https://storage.googleapis.com/allennlp-public-models/quarel-parser-zero-2018.12.20.tar.gz",
+        "https://allennlp.s3.amazonaws.com/models/quarel-parser-zero-2020.02.10.tar.gz",
         "quarel-parser",
     )
     return predictor
