@@ -32,7 +32,7 @@ def atis_parser_lin_2019() -> semparse_predictors.AtisParserPredictor:
 
 def quarel_parser_tafjord_2019() -> semparse_predictors.QuarelParserPredictor:
     predictor = _load_predictor(
-        "https://allennlp.s3.amazonaws.com/models/quarel-parser-zero-2020.02.10.tar.gz",
+        "https://allennlp.s3.amazonaws.com/models/quarel-parser-zero-2020.02.12.tar.gz",
         "quarel-parser",
     )
     return predictor
