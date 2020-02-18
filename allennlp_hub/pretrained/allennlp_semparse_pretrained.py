@@ -1,7 +1,7 @@
 from allennlp_hub.pretrained.helpers import _load_predictor
 from allennlp_semparse import predictors as semparse_predictors
 import allennlp_semparse.models
-
+import allennlp_semparse.dataset_readers
 
 # AllenNLP Semparse models
 
