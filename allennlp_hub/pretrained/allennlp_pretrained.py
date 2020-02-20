@@ -24,7 +24,7 @@ def srl_with_elmo_luheng_2018() -> predictors.SemanticRoleLabelerPredictor:
 
 def bert_srl_shi_2019() -> predictors.SemanticRoleLabelerPredictor:
     predictor = _load_predictor(
-        "https://s3-us-west-2.amazonaws.com/allennlp/models/bert-base-srl-2020.02.10.tar.gz",
+        "https://s3-us-west-2.amazonaws.com/allennlp/models/bert-base-srl-2019.06.17.tar.gz",
         "semantic-role-labeling",
     )
     return predictor
